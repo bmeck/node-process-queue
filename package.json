@@ -1,0 +1,14 @@
+{
+  "name": "process-queue",
+  "version": "1.0.0",
+  "description": "child process queues managed for interposition",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/log.js"
+  },
+  "author": "bradleymeck",
+  "license": "ISC",
+  "dependencies": {
+    "async": "~0.9.0"
+  }
+}
