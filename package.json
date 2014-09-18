@@ -1,6 +1,6 @@
 {
   "name": "process-queue",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "child process queues managed for interposition",
   "main": "index.js",
   "scripts": {

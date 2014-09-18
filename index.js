@@ -120,10 +120,10 @@ function onCmd(task, callback) {
 
     function cleanup() {
       if (child.exitCode) {
-        next(new Error(bin + ' exited with code: ' + child.exitCode));
+        next(new Error('process exited with code: ' + child.exitCode));
       }
       else if (child.signalCode) {
-        next(new Error(bin + ' exited with signal: ' + child.signalCode));
+        next(new Error('process exited with signal: ' + child.signalCode));
       }
       else {
         next(null);
