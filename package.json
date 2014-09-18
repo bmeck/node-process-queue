@@ -1,10 +1,14 @@
 {
   "name": "process-queue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "child process queues managed for interposition",
   "main": "index.js",
   "scripts": {
     "test": "node test/log.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/bmeck/node-process-queue.git"
   },
   "author": "bradleymeck",
   "license": "ISC",
