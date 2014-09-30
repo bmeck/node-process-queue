@@ -1,4 +1,4 @@
-# Offspring
+# Process-Queue
 
 A simple, but flexible process queue.
 
@@ -12,7 +12,7 @@ A simple, but flexible process queue.
 
 ```javascript
 // make our queue
-var q = require('offspring').createQueue({
+var q = require('process-queue').createQueue({
   // how many processes should be allowed to run at a time
   concurrency: Number($) || 1,
 
